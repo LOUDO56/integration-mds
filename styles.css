@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Poor Story Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Poor Story Regular'), url('assets/fonts/PoorStory-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('assets/fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PlaypenSans Medium';
+    src: url('assets/fonts/PlaypenSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PlaypenSans Light';
+    src: url('assets/fonts/PlaypenSans-Light.ttf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFFCE0;
+    background: linear-gradient(120deg, rgba(255, 252, 224, 1) 20%, rgba(255, 251, 204, 1) 100%);
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 8rem; 
+}
+
+@media (min-width: 992px) {
+    main {
+        margin-top: 12rem;
+    }
+}
+
+.poor-story-regular {
+    font-family: 'Poor Story Regular', sans-serif;
+    font-size: 20px;
+}
+
+.pacifico {
+    font-family: 'Pacifico';
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+.playpen-sans-medium {
+    font-family: 'PlaypenSans Medium';
+}
+
+.playpen-sans-light {
+    font-family: 'PlaypenSans Light';
+}
+
+.text-black {
+    color: #191919;
+}
+
+.text-black-light {
+    color: #303030;
+}
+
+h1.pacifico {
+    font-size: 70px; 
+}
+
+@media (max-width: 576px) {
+    h1.pacifico {
+        font-size: 40px;
+    }
+}
+
+/* Custom card hover effect */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+.hover-scale:hover {
+    transform: translateY(-5px);
+}
